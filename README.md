@@ -4,9 +4,13 @@ This is a Computer Networks Mini Project (Team 1 – Semester 4) that implements
 
 🏷️
 -Python
+
 -Socket Programming
+
 -Secure Chat
+
 -MongoDB
+
 -Client-Server
 
 *Computer Networks Mini Project
