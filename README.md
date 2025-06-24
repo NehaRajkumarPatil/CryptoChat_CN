@@ -53,7 +53,7 @@ CryptoChat_CN/
 
 ├── 📂 screenshots/
 
-│   └── chat_demo.png     # Demo screenshot (optional)
+│   └── SCREENSHOTS.pdf   # Demo screenshot (optional)
 
 ├── 📜 TEAM_1_MP2_SCREENSHOT.pdf
 
