@@ -1,13 +1,13 @@
 📡 CryptoChat_CN - Team 1 (Secure Socket Chat App) 🚀
-
+-------------------------------------------------------------
 📌 Project Title:
 
 Secure Multi-User Chat System using Python Sockets & MongoDB
-
+------------------------------------------------------------
 🔥 Problem Statement
 
 Design and implement a secure, real-time, multi-user chat application using raw sockets in Python. The application must support encryption, emoji sharing, file transfers, private messaging, and authenticated login using MongoDB.
-
+------------------------------------------------------------
 📌 Tech Stack
 Python 🐍
 
@@ -20,7 +20,7 @@ MongoDB 🍃
 Tkinter (for GUI) 🎨 (if used)
 
 JSON & File Handling 📁
-
+------------------------------------------------------------
 📁 Project Structure
 
 pgsql
@@ -58,7 +58,7 @@ CryptoChat_CN/
 ├── 📜 TEAM_1_MP2_SCREENSHOT.pdf
 
 ├── 📜 .gitignore
-
+------------------------------------------------------------
 ⚡ Installation & Setup
 
 1️⃣ Clone the repository:
@@ -102,9 +102,9 @@ Copy
 Edit
 
 python src/client.py
-
+------------------------------------------------------------
 ⚠️ Make sure MongoDB is running and SSL certificates are valid.
-
+------------------------------------------------------------
 🚀 Usage
 
 👤 Register or login securely via MongoDB
@@ -118,7 +118,7 @@ python src/client.py
 😄 Express with emojis
 
 ✍️ See who is typing in real-time
-
+------------------------------------------------------------
 🏆 Features
 
 ✅ Secure Messaging via SSL
@@ -136,7 +136,7 @@ python src/client.py
 ✅ Typing Indicators ✍️
 
 ✅ Message Logging
-
+------------------------------------------------------------
 🎯 Future Scope
 
 🚀 Add audio/video chat using WebRTC
@@ -148,7 +148,7 @@ python src/client.py
 📊 Admin Dashboard for Chat Monitoring
 
 🌐 WebSocket support for browser-based clients
-
+------------------------------------------------------------
 📜 License
 
 This project is developed for academic purposes under PES University’s CN Mini Project guidelines.
