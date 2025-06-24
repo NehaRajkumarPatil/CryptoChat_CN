@@ -17,15 +17,21 @@ This is a Computer Networks Mini Project (Team 1 – Semester 4) that implements
 
 - 🔐 Login/Signup with MongoDB
 
-🏷️
--Python
+## 🛠️ Tech Stack
 
--Socket Programming
+- Python (Socket Programming)
 
--Secure Chat
+- MongoDB (User Database)
 
--MongoDB
+- Tkinter (GUI - if used)
 
--Client-Server
+- SSL (Encryption)
 
-*Computer Networks Mini Project
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+
+git clone https://github.com/YourUsername/CryptoChat_CN.git
+
+cd CryptoChat_CN
