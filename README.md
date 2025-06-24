@@ -1,37 +1,99 @@
-# CryptoChat_CN
-A secure, multi-user chat application built using raw sockets in Python with support for encrypted messaging, emoji reactions, private messages, file sharing, typing indicators, and MongoDB-based user authentication.
+📡 CryptoChat_CN - Team 1 (Secure Socket Chat App) 🚀
 
-This is a Computer Networks Mini Project (Team 1 – Semester 4) that implements a secure multi-user chat system using Python raw sockets. It features end-to-end encryption using SSL, real-time messaging with emojis and file sharing, typing indicators, and private messaging. User registration and login functionality are implemented using MongoDB. The project demonstrates core networking concepts such as client-server architecture, message broadcasting, and socket programming, with a focus on secure communication.
+📌 Project Title:
 
-## ✨ Features
+Secure Multi-User Chat System using Python Sockets & MongoDB
 
-- 🔐 Encrypted Messaging (SSL)
+🔥 Problem Statement
 
-- 😃 Emoji Support
+Design and implement a secure, real-time, multi-user chat application using raw sockets in Python. The application must support encryption, emoji sharing, file transfers, private messaging, and authenticated login using MongoDB.
 
-- 📁 File Sharing
+📌 Tech Stack
+Python 🐍
 
-- 🗣️ Typing Indicator
+Socket Programming 🔌
 
-- 🧑‍🤝‍🧑 Private Messaging
+SSL/TLS Encryption 🔐
 
-- 🔐 Login/Signup with MongoDB
+MongoDB 🍃
 
-## 🛠️ Tech Stack
+Tkinter (for GUI) 🎨 (if used)
 
-- Python (Socket Programming)
+JSON & File Handling 📁
 
-- MongoDB (User Database)
+📁 Project Structure
+pgsql
+Copy
+Edit
+CryptoChat_CN/
+│
+├── 📜 README.md
+├── 📂 certs/
+│   ├── cert.pem
+│   ├── key.pem
+│   └── server.crt
+├── 📂 src/
+│   ├── server.py         # Server-side chat handling
+│   ├── client.py         # Client-side chat interface
+│   └── users.json        # Stored user data
+├── 📂 screenshots/
+│   └── chat_demo.png     # Demo screenshot (optional)
+├── 📜 TEAM_1_MP2_SCREENSHOT.pdf
+├── 📜 .gitignore
 
-- Tkinter (GUI - if used)
-
-- SSL (Encryption)
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-
+⚡ Installation & Setup
+1️⃣ Clone the repository:
+bash
+Copy
+Edit
 git clone https://github.com/YourUsername/CryptoChat_CN.git
-
 cd CryptoChat_CN
+2️⃣ Install dependencies:
+bash
+Copy
+Edit
+pip install pymongo
+3️⃣ Run the Server:
+bash
+Copy
+Edit
+python src/server.py
+4️⃣ Run the Client:
+bash
+Copy
+Edit
+python src/client.py
+⚠️ Make sure MongoDB is running and SSL certificates are valid.
+
+🚀 Usage
+👤 Register or login securely via MongoDB
+
+💬 Send public messages
+
+🗣️ Send private messages to specific users
+
+📁 Share files in base64 format
+
+😄 Express with emojis
+
+✍️ See who is typing in real-time
+
+🏆 Features
+✅ Secure Messaging via SSL
+✅ MongoDB User Authentication
+✅ Real-Time Broadcast Chat
+✅ File Sharing (Text/Images in base64)
+✅ Emoji Support 😃
+✅ Private Messaging 🧑‍🤝‍🧑
+✅ Typing Indicators ✍️
+✅ Message Logging
+
+🎯 Future Scope
+🚀 Add audio/video chat using WebRTC
+🔒 Implement end-to-end encryption with RSA
+📱 Build a mobile version using Kivy or Flutter
+📊 Admin Dashboard for Chat Monitoring
+🌐 WebSocket support for browser-based clients
+
+📜 License
+This project is developed for academic purposes under PES University’s CN Mini Project guidelines.
